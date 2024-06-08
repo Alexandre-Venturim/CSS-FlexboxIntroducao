@@ -86,3 +86,14 @@ video {
     font: inherit;
     vertical-align: baseline;
 }
+
+body {
+    width: 100vw;
+    margin: auto;
+    background-color: #FFF;
+}
+
+.body_second {
+    width: 35vh;
+    margin: auto;
+}
