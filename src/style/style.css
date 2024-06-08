@@ -88,12 +88,13 @@ video {
 }
 
 body {
-    width: 100vw;
-    margin: auto;
-    background-color: #FFF;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
 }
 
 .body_second {
-    width: 35vh;
+    width: 35%;
     margin: auto;
 }
