@@ -94,7 +94,45 @@ body {
     color: aliceblue;
 }
 
-.body_second {
-    width: 35%;
-    margin: auto;
+
+h1 {
+    font-size: 3.5vh;
+    margin: 20px 0 0 0;
+    font-weight: normal;
+}
+
+.container {
+    margin: 0 auto;
+    border: 1px solid #CCC;
+    max-width: 600px;
+    display: flex;
+}
+
+.item {
+    background-color: #007bff;
+    text-align: center;
+    font-size: 1.5vh;
+    margin: 5px;
+    width: 100%;
+}
+
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+
+}
+
+.column {
+    flex-direction: column;
 }
